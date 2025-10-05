@@ -8,7 +8,11 @@ export default function Home() {
           src="/laumann.png"
           alt="Laumann Film"
           fill
-          className="object-contain [mask-image:linear-gradient(to_top,transparent,black_10%,black_90%,transparent)] [mask-repeat:no-repeat] [mask-size:100%_100%]"
+          className="object-contain 
+            [mask-image:radial-gradient(circle,black_70%,transparent_100%)]
+            [mask-repeat:no-repeat]
+            [mask-position:center]
+            [mask-size:100%_100%]"
           priority
         />
       </div>
