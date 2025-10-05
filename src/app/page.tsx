@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative flex items-center justify-center w-screen h-screen bg-[#f6f6f6]">
+    <main className="relative flex items-center justify-center w-screen h-screen bg-gradient-to-t from-[#e6e6e6] via-[#f7f7f7] to-[#e6e6e6]">
       <div className="relative w-full h-full max-w-screen max-h-screen">
         <Image
           src="/laumann.png"
